@@ -1,0 +1,5 @@
+create database uniquecakes;
+
+use uniquecakes;
+
+create table cakes(cakeid int primary key auto_increment,cakename varchar(40)not null,caketype varchar(40)not null,cakeweight double not null,cakeprice double not null);
